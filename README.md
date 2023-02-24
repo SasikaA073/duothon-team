@@ -10,7 +10,7 @@ Funcionalities available so far in the site :
 * Add drugs and edit them and edit them
 * User Authorization features for pharmacies
   
-This is how to get started and customize it.
+This is how to get started and customize it
 
    
 1) First, clone the repository. 
