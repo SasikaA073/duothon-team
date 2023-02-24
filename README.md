@@ -2,15 +2,15 @@
 
 Funcionalities available so far in the site :
 
-* User Signup
+* User Signup.
 * User Login/Logout
-* (Django Inbuilt user authentication)
+* (Django Inbuilt user authentication).
 * Password Reset ( Using Twillio as a service ) # Have to be implemented. 
-* Drug inventory view
-* Add drugs and edit them and edit them
-* User Authorization features for pharmacies
+* Drug inventory view.
+* Add drugs and edit them and edit them.
+* User Authorization features for pharmacies.
   
-This is how to get started and customize it
+This is how to get started and customize it.
 
    
 1) First, clone the repository. 
