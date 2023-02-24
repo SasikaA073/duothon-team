@@ -1,39 +1,48 @@
+# UniLink Project
 
-## Technical Requirements
+Funcionalities available so far in the site :
+* User Signup
+* User Login/Logout
+* (Django Inbuilt user authentication)
+* Password Reset ( Using Twillio as a service )  # Not yet implemented
+* Inventory list view
+* CRUD operations for medicine by pharamacies
+* User Authorization features
+  
+This is how to get started and customize it.
 
-- The application should use an efficient database to store information about pharmacies and the availability of medicines.
+   
+1) First, clone the repository. 
 
-- Pharmacies should be able to register in the system but the Admin should approve them before they can login and add their inventory.
+        git clone https://github.com/SasikaA073/Social-blog
 
-- All the Major entities (such as Pharmacies, Medicines, etc.…) should have full CRUD (Create, Read, Update Delete) operations and both API and your solutions should be able to demonstrate it.
+2) Then run this command to activate a python environment. After that activate the environment. 
 
-- The application should use an “API First” Approach. RESTful APIs should be used to communicate between the Backend and the Frontend. Note: You can use an API Manager Platform (Postman/insomnia) when demonstrating APIs.
+    In linux,
 
-- All Endpoints must use proper HTTP Status codes to indicate the status of the request.
+        virtualenv --python=python3 ~/venv/MyVirtEnv
+        source ~/venv/MyVirtEnv/bin/activate
 
-- The application architecture should be able to handle a large number of users and the Database should be able to handle large volumes of data in an efficient manner.
+    In Windows,
 
-- The application should be secure, with appropriate measures taken to protect user data and prevent unauthorized access.
+        python -m venv "MyVirtEnv"
+        source MyVirtEnv\Scripts\activate
+            
+    If your Python virtual environment works fine, then in the command line should be something similar to this.
+    
 
-- For any internal Users, use of General Auth Providers is not recommended. For example, using Google Auth or Firebase Auth is not recommended for Internal Users such as Admins or Pharmacies.
 
-- Apart from the core functionality Quality of life features may be awarded extra points.
+        (MyVirtEnv) C:\Users\Foo
 
-## Task 01: Backend Development and Database
-Then the points related to your task will be calculated according to your current score status. You can use any suitable database to store information and pass it to the client through an API.
+3) Now you have to install the required python libraries. Then run this command.
 
-## Task 02: Pharmacy Dashboard
-This task contributes 20% of the overall competition mark for Duothan.
+        pip install -r requirements.txt
 
-Authentication (Sign Up/Sign In)
-Inventory Management
-Pharmacy Profile
+4) Now the last part!
+   
+        python manage.py runserver
 
-## Task 03: Admin Dashboard
-Authentication
-Pharmacies Table
-Approve & Manage Pharmacies
+ 
+        
+        
 
-## Task 04: User Frontend
-Search Medicine
-Filter Results by location
