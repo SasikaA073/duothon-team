@@ -14,7 +14,7 @@ This is how to get started and customize it.
    
 1) First, clone the repository. 
 
-        git clone https://github.com/SasikaA073/Social-blog
+        git clone https://github.com/SasikaA073/duothon-team.git
 
 2) Then run this command to activate a python environment. After that activate the environment. 
 
