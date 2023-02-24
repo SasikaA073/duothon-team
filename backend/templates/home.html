@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock title %}
+
+
+{% block content %}
+
+{% if user.is_authenticated %}
+
+<h4> Welcome back <i>{{ user.username }}</i>! </h4>
+
+
+
+<div class="jumbotron">
+    <h1 class="display-4">Unity Pharmacy Hub</h1>
+    <p class="lead">The ultimate platform to find medicines.</p>
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button">Go to Feed</a>
+        <a class="btn btn-outline-secondary btn-lg" href="{% url 'logout' %}" role="button">Log Out</a>
+    </p>
+</div>
+
+<!-- <p> <a href="{% url 'logout' %}">Log Out</a></p> -->
+
+{% else %}
+
+<h4> You are not logged in </h4>
+<a href="{% url 'login' %}">Log In</a>|
+<a href="{% url 'signup' %}">Log Out</a>
+
+{% endif %}
+{% endblock content %}
+
