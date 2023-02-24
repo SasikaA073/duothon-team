@@ -1,17 +1,13 @@
-# UniLink Project
-
-![Sample UI of first version of app](image-14.png)
-
-This is a social media project that is developed using Django Framework as backend. Our main goal of this project was to build a platform to connect with other university students. This has similar funcionalities like other Social Media Platforms like Facebook.
+# Unity Pharmacy Hub Project
 
 Funcionalities available so far in the site :
 * User Signup
 * User Login/Logout
 * (Django Inbuilt user authentication)
-* Password Reset ( Using Twillio as a service ) 
-* News Feed similar to Facebook (not yet user oriented so far)
-* Make posts and edit them
-* User Authorization features
+* Password Reset ( Using Twillio as a service ) # Have to be implemented. 
+* Drug inventory view
+* Add drugs and edit them and edit them
+* User Authorization features for pharmacies
   
 This is how to get started and customize it.
 
