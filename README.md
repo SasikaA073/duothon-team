@@ -1,6 +1,7 @@
 # Unity Pharmacy Hub Project
 
 Funcionalities available so far in the site :
+
 * User Signup
 * User Login/Logout
 * (Django Inbuilt user authentication)
@@ -25,14 +26,14 @@ This is how to get started and customize it.
 
     In Windows,
 
-        python -m venv "MyVirtEnv"
+        python -m venv "ENV"
         source MyVirtEnv\Scripts\activate
             
     If your Python virtual environment works fine, then in the command line should be something similar to this.
     
 
 
-        (MyVirtEnv) C:\Users\Foo
+        (ENV) C:\Users\Foo
 
 3) Now you have to install the required python libraries. Then run this command.
 
