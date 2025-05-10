@@ -7,11 +7,17 @@ Unity Pharmacy Hub is a Django-based web application designed to streamline phar
 ## 🚀 Features
 
 ✅ User Signup & Login
+
 ✅ Django's built-in user authentication system
+
 ✅ User Logout
+
 🚧 Password Reset via Twilio (To be implemented)
+
 ✅ View drug inventory
+
 ✅ Add and edit drug entries
+
 ✅ Pharmacy-specific user authorization
 
 ---
