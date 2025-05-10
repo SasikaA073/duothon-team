@@ -1,49 +1,85 @@
-# Unity Pharmacy Hub Project
+# 💊 Unity Pharmacy Hub
 
-Funcionalities available so far in the site :
+Unity Pharmacy Hub is a Django-based web application designed to streamline pharmacy management. It includes essential features such as user authentication, drug inventory management, and role-based access for pharmacies.
 
-* User Signup.
-* User Login/Logout
-* (Django Inbuilt user authentication).
-* Password Reset ( Using Twillio as a service ) # Have to be implemented. 
-* Drug inventory view.
-* Add drugs and edit them and edit them.
-* User Authorization features for pharmacies.
-  
-This is how to get started and customize it.
+---
 
-   
-1) First, clone the repository. 
+## 🚀 Features
 
-        git clone https://github.com/SasikaA073/duothon-team.git
+✅ User Signup & Login
+✅ Django's built-in user authentication system
+✅ User Logout
+🚧 Password Reset via Twilio (To be implemented)
+✅ View drug inventory
+✅ Add and edit drug entries
+✅ Pharmacy-specific user authorization
 
-2) Then run this command to activate a python environment. After that activate the environment. 
+---
 
-    In linux,
+## 🛠️ Getting Started
 
-        virtualenv --python=python3 ~/venv/MyVirtEnv
-        source ~/venv/MyVirtEnv/bin/activate
+Follow the steps below to set up the project on your local machine.
 
-    In Windows,
+### 1️⃣ Clone the Repository
 
-        python -m venv "ENV"
-        source MyVirtEnv\Scripts\activate
-            
-    If your Python virtual environment works fine, then in the command line should be something similar to this.
-    
+```bash
+git clone https://github.com/SasikaA073/duothon-team.git
+cd duothon-team
+```
 
+### 2️⃣ Set Up the Python Environment
 
-        (ENV) C:\Users\Foo
+#### 🔹 On Linux/macOS:
 
-3) Now you have to install the required python libraries. Then run this command.
+```bash
+virtualenv --python=python3 ~/venv/UnityPharmacyEnv
+source ~/venv/UnityPharmacyEnv/bin/activate
+```
 
-        pip install -r requirements.txt
+#### 🔹 On Windows:
 
-4) Now the last part!
-   
-        python manage.py runserver
+```bash
+python -m venv ENV
+ENV\Scripts\activate
+```
 
- 
-        
-        
+> ✅ You’ll know it’s activated when your terminal shows a prefix like: `(ENV) C:\Users\YourName>`
 
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Run the Development Server
+
+```bash
+python manage.py runserver
+```
+
+Then open your browser and go to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+---
+
+## 📌 To-Do / In Progress
+
+* [ ] Implement Twilio-based password reset functionality
+* [ ] Add unit tests for all major functionalities
+* [ ] Improve UI/UX for the inventory dashboard
+* [ ] Add search/filter options for inventory
+
+---
+
+## 👨‍💻 Contributing
+
+Feel free to fork the repo and submit pull requests! If you're interested in contributing, check out the [issues](https://github.com/SasikaA073/duothon-team/issues) tab to see what needs work.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
